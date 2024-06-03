@@ -1,0 +1,9 @@
+<nuisance>
+  <config SignalReconfigures="1" />
+
+  <config GENIETune="AR23_20i_00_000" />
+
+  <parameter name="NormCCMEC" type="genie_parameter" state="FREE" low="-2" high="2" step="1" nominal="2" />
+
+  <sample name='DUNEMecSandbox' input='GENIE:genie.DUNE_ND.numu.merged.root' />
+</nuisance>
