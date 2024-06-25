@@ -1,9 +1,18 @@
 <nuisance>
   <config SignalReconfigures="1" />
 
-  <config GENIETune="AR23_20i_00_000" />
+  <config GENIETune="G18_10s_00_000" />
 
-  <parameter name="NormCCMEC" type="genie_parameter" state="FREE" low="-2" high="2" step="1" nominal="2" />
+  <parameter name="NormCCMEC" type="genie_parameter" state="FREE" low="-1" high="1" step="1" nominal="0" />
+  <!--parameter name="DecayAngMEC" type="genie_parameter" state="FREE" low="-1" high="1" step="1" nominal="0" /-->
+  <!--parameter name="DecayAngMEC2" type="genie_parameter" state="FREE" low="-2" high="2" step="1" nominal="0" /-->
+  <!--parameter name="FracPN_CCMEC" type="genie_parameter" state="FREE" low="-1" high="1" step="1" nominal="0" /-->
+  <!--parameter name="XSecShape_CCMEC" type="genie_parameter" state="FREE" low="0" high="1" step="0.5" nominal="0" /-->
+  <!--parameter name="XSecShape_CCMEC_Empirical" type="genie_parameter" state="FREE" low="0" high="1" step="1" nominal="0.5" /-->
+  <!--parameter name="XSecShape_CCMEC_Martini" type="genie_parameter" state="FREE" low="0" high="1" step="1" nominal="0.5" /-->
+  <!--parameter name="EnergyDependence_CCMEC" type="genie_parameter" state="FREE" low="0" high="1" step="0.5" nominal="0" /-->
 
-  <sample name='DUNEMecSandbox' input='GENIE:genie.DUNE_ND.numu.merged.root' />
+  <!--config MAXEVENTS="100"/-->
+
+  <sample name='DUNEMecSandbox' input='GENIE:/eos/user/b/bathepet/public/GENIE/GENIE_generated/v3_04_00/G18_10s_00_000/GENIE_G18_10s_00_000_14_1000180400_CCMEC_26874.gprep.root' /> // G18_10s_00_000 (SuSAv2), 100000 events
 </nuisance>
